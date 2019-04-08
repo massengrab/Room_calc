@@ -8,7 +8,7 @@ import main_pack.Main_frame;
 
 public class Room_calc {
 	@Test
-	//корректный тест
+	//РєРѕСЂСЂРµРєС‚РЅС‹Р№ С‚РµСЃС‚
 	public final void test1() {
 		double x = 50;
 		double y = 100;
@@ -18,7 +18,7 @@ public class Room_calc {
 		assertEquals(actual_answer,expect,delta);
 	}
 	@Test
-	//намеренно указано несоответствующее ожидание => failure
+	//РЅР°РјРµСЂРµРЅРЅРѕ Р·Р°РґР°РЅРѕ РЅРµРІРµСЂРЅРѕРµ РѕР¶РёРґР°РЅРёРµ => failure
 	public final void test2() {
 		double x = 0;
 		double y = 0;
@@ -28,7 +28,7 @@ public class Room_calc {
 		assertEquals(actual_answer,expect,delta);
 	}
 	@Test
-	//корректный тест
+	//РєРѕСЂСЂРµРєС‚РЅС‹Р№ С‚РµСЃС‚
 	public final void test3() {
 		double x = 1.43;
 		double y = 2;
